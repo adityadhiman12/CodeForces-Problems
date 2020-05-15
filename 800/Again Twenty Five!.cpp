@@ -6,5 +6,5 @@ int main()
 {
 	ll n;
 	cin>>n;
-	cout<<25<<"\n";
+	cout<<25<<endl;
 }
