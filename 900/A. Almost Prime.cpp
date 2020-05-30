@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 #define n 3001
 using namespace std;
-
 int main()
 {
 	bool arr[n];
@@ -22,5 +21,5 @@ int main()
 			res++;	
 	}
 	cout<<res<<"\n";
-			
+		 	
 }
