@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define n 3001
 using namespace std;
 int main()
