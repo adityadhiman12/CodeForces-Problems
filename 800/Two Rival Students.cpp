@@ -11,6 +11,6 @@ int main()
 	{
 		int n,x,a,b;
 		cin>>n>>x>>a>>b;
-		cout<<min(n-1,abs(a-b)+x)<<"\n";
+		cout<<min(n-1,abs(a-b)+x)<<endl;
 	}
 }
