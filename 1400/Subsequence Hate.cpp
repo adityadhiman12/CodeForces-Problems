@@ -38,6 +38,6 @@ int main()
 			ans=min(ans,done0s+ones);
 		}
 		
-		cout<<ans<<"\n";		
+		cout<<ans<<endl;		
 	}
 }	
