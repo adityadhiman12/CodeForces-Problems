@@ -9,7 +9,7 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n,x,a,b;
+		ll n,x,a,b;
 		cin>>n>>x>>a>>b;
 		cout<<min(abs(a-b)+x,n-1)<<endl;
 	}
