@@ -2,9 +2,11 @@
 #define endl "\n"
 #define ll long long
 using namespace std;
+
 int v[101][101],b[101][101],n,m,t1,flag;
 char a[101][101];
-void dfs(int x,int y){
+void dfs(int x,int y)
+{
     if(b[x][y]||v[x][y])return;
     v[x][y]=1;
     if(x>1)dfs(x-1,y);
