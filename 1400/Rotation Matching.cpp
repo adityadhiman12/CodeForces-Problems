@@ -29,5 +29,5 @@ int main()
 	{
 		ans=max(ans,i.second);
 	}
-	cout<<ans<<"\n";
+	cout<<ans<<endl;
 }
