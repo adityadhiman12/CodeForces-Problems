@@ -49,6 +49,6 @@ int main()
 				}
 			}
 		 }
-		 cout<<winner<<"\n";
+		 cout<<winner<<endl;
 	}
 }
