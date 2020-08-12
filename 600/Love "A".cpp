@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -17,13 +18,13 @@ int main()
     }
     int count=0;
     if(a>x)
-        cout<<s.length()<<"\n";
+        cout<<s.length()<<endl;
     else
     {
         while(x>=a){
             x--;
             count++;
         }
-        cout<<s.length()-count<<"\n";
+        cout<<s.length()-count<<endl;
     }
 }
