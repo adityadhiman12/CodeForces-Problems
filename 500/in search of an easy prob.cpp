@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -14,10 +15,10 @@ int main()
         if(a[i]==1)
         {
             flag=1;
-            cout<<"HARD"<<"\n";
+            cout<<"HARD"<<endl;
 		break;
         }
     }
     if(flag==0)
-            cout<<"EASY"<<"\n";
+            cout<<"EASY"<<endl;
 }
