@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 int main()
@@ -15,5 +16,5 @@ int main()
 		else
 			c--;
 	}
-	cout<<c<<"\n";
+	cout<<c<<endl;
 }
