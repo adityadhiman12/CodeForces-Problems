@@ -21,6 +21,6 @@ int main()
 		if(a[i]==2)
 			res++;	
 	}
-	cout<<res<<"\n";
+	cout<<res<<endl;
 		 	
 }
