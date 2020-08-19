@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#include<iostream>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -14,5 +14,5 @@ int main()
         else
             n/=10;
     }
-    cout<<n<<"\n";
+    cout<<n<<endl;
 }
