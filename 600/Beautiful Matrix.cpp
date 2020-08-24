@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -19,7 +20,7 @@ int main()
   }
   int rowM=abs(row-2);
   int colM=abs(col-2);
-  cout<<rowM+colM<<"\n";
+  cout<<rowM+colM<<endl;
   return 0;
   
 }
