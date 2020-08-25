@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -9,7 +10,7 @@ int main()
     string s;
     cin>>s;
     if(s[0]=='S'&&s[n-1]=='F')
-        cout<<"YES"<<"\n";
+        cout<<"YES"<<endl;
     else
-        cout<<"NO"<<"\n";
+        cout<<"NO"<<endl;
 }
