@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -14,5 +15,5 @@ int main()
       if(i%tl==0)
         ways++;
   }
-  cout<<ways<<"\n";
+  cout<<ways<<endl;
 }
