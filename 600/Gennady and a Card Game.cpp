@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -13,11 +14,11 @@ int main()
        cin>>x;
        if(x[0]==card[0] || x[1]==card[1])
        {
-           cout<<"YES"<<"\n";
+           cout<<"YES"<<endl;
            flag=1;
            break;
        }
    }
    if(flag==0)
-        cout<<"NO"<<"\n";
+        cout<<"NO"<<endl;
 }
