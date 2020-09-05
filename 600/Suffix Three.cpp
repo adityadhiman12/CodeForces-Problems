@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -11,10 +12,10 @@ int main()
         string s;
         cin>>s;
         if(s[s.length()-1]=='o')
-            cout<<"FILIPINO"<<"\n";
+            cout<<"FILIPINO"<<endl;
         else if(s[s.length()-1]=='u')
-            cout<<"JAPANESE"<<"\n";    
+            cout<<"JAPANESE"<<endl;    
         else 
-            cout<<"KOREAN"<<"\n";    
+            cout<<"KOREAN"<<endl;    
     }
 }
