@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 int main()
@@ -20,7 +21,7 @@ int main()
 			char l=s[s.length()-1];
 			cout<<f;
 			cout<<count;
-			cout<<l<<"\n";
+			cout<<l<<endl;
 		}
 	}
 	
