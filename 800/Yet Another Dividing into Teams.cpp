@@ -1,4 +1,6 @@
 #include<bits/stdc++.h>
+#define endl "\n"
+#define ll long long int
 using namespace std;
 
 int main()
@@ -18,13 +20,13 @@ int main()
 		{
 			if(a[i]-a[i-1]==1)
 			{
-				cout<<2<<"\n";
+				cout<<2<<endl;
 				flag=1;
 				break;
 			}
 		}	
 		if(flag==0)
-			cout<<1<<"\n";
+			cout<<1<<endl;
 			
 	}
 }
