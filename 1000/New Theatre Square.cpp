@@ -29,7 +29,6 @@ int main() {
 					if(a[i][j+1]=='.')
 					{
 						cost+=p;
-				// 		cout<<cost<<"\n";
 						a[i][j+1]='*';
 					}
 					else
@@ -39,7 +38,7 @@ int main() {
 		   if(a[i][m-1]=='.')
 				cost+=x;
 	   }
-	   cout<<cost<<"\n";
+	   cout<<cost<<endl;
 	            
 	            
 	   
