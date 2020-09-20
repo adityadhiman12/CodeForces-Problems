@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -19,6 +20,6 @@ int main()
 				occ[a[i]^a[j]]++;
 		int ans = 1;
 		while(ans < 1024 && occ[ans] < n) ans++;
-		cout << ((ans == 1024) ? -1 : ans) << "\n";
+		cout << ((ans == 1024) ? -1 : ans) << endl;
 	}
 }
