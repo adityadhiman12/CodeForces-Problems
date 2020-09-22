@@ -36,15 +36,15 @@ int main()
 		}	
 		if(flag==0)
 		{
-			cout<<"Yes"<<"\n";
+			cout<<"Yes"<<endl;
 			continue;
 		}
 		if(count1==0 || count0==0)
 		{
-			cout<<"No"<<"\n";
+			cout<<"No"<<endl;
 			continue;
 		}	
 		else
-			cout<<"Yes"<<"\n";
+			cout<<"Yes"<<endl;
 	}
 }
