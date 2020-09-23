@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -21,5 +22,5 @@ int main()
 			n/=2;
 		}
 	}	
-	cout<<res<<"\n";
+	cout<<res<<endl;
 }
