@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -18,9 +19,9 @@ int main()
             c2++;
     }
     if(c1>c2)
-        cout<<"Mishka"<<"\n";
+        cout<<"Mishka"<<endl;
     else if(c1==c2)
-        cout<<"Friendship is magic!^^"<<"\n";
+        cout<<"Friendship is magic!^^"<<endl;
     else
-        cout<<"Chris"<<"\n";
+        cout<<"Chris"<<endl;
 }
