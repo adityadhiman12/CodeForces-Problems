@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define ll long long int
 using namespace std;
 
@@ -15,5 +16,5 @@ int main()
 		if(__builtin_popcount(a[i]^a[m])<=k)
 			ans++;
 	}	
-	cout<<ans<<"\n";
+	cout<<ans<<endl;
 }
