@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#define endl "\n"
 #define ll long long
 #define pb push_back
 using namespace std;
