@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 ll gcd(ll a,ll b)
@@ -22,5 +23,5 @@ int main()
         }
 	}
 	
-		cout<<"No"<<"\n";	
+		cout<<"No"<<endl	
 }
