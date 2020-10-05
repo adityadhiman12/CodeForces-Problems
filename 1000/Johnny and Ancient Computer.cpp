@@ -23,7 +23,7 @@ int main()
 		ll r=getR(a);
 		if(getR(b)!=r)
 		{
-			cout<<-1<<"\n";
+			cout<<-1<<endl;
 			continue;
 		}
 		int ans=0;
@@ -32,7 +32,7 @@ int main()
 			b/=8,ans++;
 		if(b>1)
 			ans++;
-		cout<<ans<<"\n";	
+		cout<<ans<<<endl;	
 	}
 	
 }
