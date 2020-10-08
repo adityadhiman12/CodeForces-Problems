@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long int
+#define endl "\n"
 using namespace std;
 
 int main()
@@ -12,6 +13,6 @@ int main()
        cin>>hr>>min;
        int hrmin=(23-hr)*60;
        int newmin=60-min;
-       cout<<hrmin+newmin<<"\n";
+       cout<<hrmin+newmin<<endl;
     }
 }
