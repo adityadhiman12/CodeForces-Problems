@@ -12,8 +12,6 @@ ll max(ll a,ll b)
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
     ll n;
     cin>>n;
     if(n%10==0 && n>=0)
