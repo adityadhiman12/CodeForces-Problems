@@ -1,6 +1,6 @@
-#include<iostream>
 #include<bits/stdc++.h>
 #define max 100010
+#define endl "\n"
 using namespace std;
 
 int a[max];
