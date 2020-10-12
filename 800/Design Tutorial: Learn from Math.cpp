@@ -1,4 +1,6 @@
 #include <iostream>
+#define ll long long int
+#define endl "\n"
 using namespace std;
 int main()
 {
