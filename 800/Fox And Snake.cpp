@@ -22,13 +22,13 @@ int main()
         {
             for(j=0;j<m-1;j++)cout<<'.';
             cout<<'#';
-            cout<<"\n";
+            cout<<endl;
         }
         else
         {
             cout<<'#';
             for(j=0;j<m-1;j++)cout<<'.';
-            cout<<"\n";
+            cout<<endl;
         }
     }
     
