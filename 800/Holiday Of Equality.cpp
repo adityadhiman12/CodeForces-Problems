@@ -15,5 +15,5 @@ int main(){
     for (int i = 0; i < n; ++i) {
         res += mx - a[i];
     }
-    cout << res << '\n';
+    cout << res << endl;
     }
