@@ -14,8 +14,10 @@ int main(){
 		for(int i=0;i<lenc;++i)num[c[i]-'A']--;
 		int flag=0;
 		for(int i=0;i<27;++i)if(num[i]!=0)flag=1;
-		if(flag)cout<<"NO"<<endl;
-		else cout<<"YES"<<endl;
+		if(flag)
+			cout<<"NO"<<endl;
+		else 
+			cout<<"YES"<<endl;
 	}
 	return 0;
 }
