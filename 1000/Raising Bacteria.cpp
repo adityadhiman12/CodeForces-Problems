@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	ll n;
+	int n;
 	cin>>n;
 	cout<<__builtin_popcount(n)<<endl;
 }
