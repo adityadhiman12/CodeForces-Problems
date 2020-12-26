@@ -12,9 +12,9 @@ int main(){
 		for(int i=0;i<lena;++i)num[a[i]-'A']++;
 		for(int i=0;i<lenb;++i)num[b[i]-'A']++;
 		for(int i=0;i<lenc;++i)num[c[i]-'A']--;
-		int flag=0;
-		for(int i=0;i<27;++i)if(num[i]!=0)flag=1;
-		if(flag)
+		int f=0;
+		for(int i=0;i<27;++i)if(num[i]!=0)f=1;
+		if(f)
 			cout<<"NO"<<endl;
 		else 
 			cout<<"YES"<<endl;
