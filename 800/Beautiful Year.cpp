@@ -4,7 +4,7 @@
 using namespace std;
 bool check(int n){
     int c[10];
-    for(int i=0; i<10; i++) c[i]=0;
+    for(int i=0; i<10; ++i) c[i]=0;
     while(n>0){
         if(c[n%10]++)return false;
         n/=10;
