@@ -9,7 +9,7 @@ int main()
 	while (t--) {
 		int n;
 		cin >> n;
-		int sumElements = 0;
+		int sumElements=0;
 		bool odd = false;
 		bool even = false;
 		for (int i = 0; i < n; ++i) {
