@@ -9,7 +9,7 @@ int main()
     cin>>n;
     vector<ll>a(n);
     int flag=0;
-    for(ll i=0;i<n;i++)
+    for(ll i=0;i<n;++i)
     {
         cin>>a[i];
         if(a[i]==1)
