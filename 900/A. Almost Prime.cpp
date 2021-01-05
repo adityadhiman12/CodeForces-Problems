@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #define endl "\n"
+#define ll long long int
 #define n 3001
 using namespace std;
 int main()
