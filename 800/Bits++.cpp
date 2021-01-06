@@ -7,7 +7,7 @@ int main()
 	ll n;
 	cin>>n;
 	ll c=0;
-	for(ll i=0;i<n;i++)
+	for(ll i=0;i<n;++i)
 	{
 		string s;
 		cin>>s;
