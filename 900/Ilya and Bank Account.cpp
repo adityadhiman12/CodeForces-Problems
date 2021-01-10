@@ -15,7 +15,7 @@ int main()
     ll n;
     cin>>n;
     if(n%10==0 && n>=0)
-		cout<<n<<endl;
+	cout<<n<<endl;
 	else 
 	{
 		ll a=n;
@@ -26,7 +26,7 @@ int main()
 		b/=10;
 		b=(b*10)+d;
 		cout<<max(max(a,b),n)<<endl;
-		
-	}
+
+}
 	
 }
