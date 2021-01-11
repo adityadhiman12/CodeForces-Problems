@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 #define endl "\n"
-#define ll long long
+#define ll long long int
 using namespace std;
 
 int v[101][101],b[101][101],n,m,t1,flag;
