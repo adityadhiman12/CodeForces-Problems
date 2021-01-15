@@ -14,7 +14,7 @@ int main()
 		if(n%2==1)
 		{
 			res=((res)*(a))%10;
-			n--;
+			--n;
 		}
 		else
 		{
