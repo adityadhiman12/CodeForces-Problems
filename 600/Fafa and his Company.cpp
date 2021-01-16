@@ -11,7 +11,7 @@ int main()
   ll ways=0;
   for(ll i=1;i<n;i++)
   {
-      ll tl=total-i;
+      ll tl=total-i; 
       if(i%tl==0)
         ways++;
   }
