@@ -2,7 +2,7 @@
 #define endl "\n"
 #define ll long long int
 using namespace std;
-int n;
+ll n;
 int a[105];
  
 int main()
