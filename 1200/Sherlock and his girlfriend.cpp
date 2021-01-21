@@ -7,7 +7,7 @@ int sieve[100005];
 
 int main()
 {
-	int i, n, j;
+	ll i, n, j;
 	cin>>n;
 	for(i=2; i<=n+1; i++)
 	{
