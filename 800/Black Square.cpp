@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-	vector<int>a(5);
+	vector<ll>a(5);
 	cin>>a[1]>>a[2]>>a[3]>>a[4];
 	string s;
 	cin>>s;
