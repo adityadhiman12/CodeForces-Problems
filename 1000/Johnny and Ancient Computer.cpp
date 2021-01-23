@@ -3,7 +3,7 @@
 #define endl "\n"
 using namespace std;
 
-ll getR(ll a)
+ll getR(ll a) 
 {
 	while(a%2==0)
 		a/=2;
