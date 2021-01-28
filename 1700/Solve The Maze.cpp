@@ -15,7 +15,8 @@ void dfs(int x,int y)
     if(y<m)dfs(x,y+1);
 }
 int main(){
-	for(cin>>t1;t1--;){
+	for(cin>>t1;t1--;)
+        {
 		cin>>n>>m;
 		for(int i=1;i<=n;i++)scanf("%s",a[i]+1);
 		for(int i=0;i<=n+1;i++) for(int j=0;j<=m+1;j++) b[i][j]=v[i][j]=0;
