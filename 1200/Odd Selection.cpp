@@ -13,7 +13,7 @@ int main()
 		cin>>n>>x;
 		vector<ll>a(n);
 		int odd=0;
-		int even=0;
+		ll even=0;
 		for(int i=0;i<n;i++)
 		{
 			cin>>a[i];
