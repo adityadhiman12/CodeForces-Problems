@@ -9,7 +9,7 @@ int main()
 	cin>>n;
 	ll res=1;
 	ll a=8;
-	while(n)
+	while(n! =0)
 	{
 		if(n%2==1)
 		{
