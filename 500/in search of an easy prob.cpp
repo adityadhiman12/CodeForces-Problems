@@ -8,7 +8,7 @@ int main()
     ll n;
     cin>>n;
     vector<ll>a(n);
-    int flag=0;
+    ll flag=0;
     for(ll i=0;i<n;++i)
     {
         cin>>a[i];
