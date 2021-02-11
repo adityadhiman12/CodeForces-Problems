@@ -8,7 +8,7 @@ int num[30];
 int main(){
 	while(cin>>a>>b>>c){
 		memset(num,0,sizeof(num));
-		int lena=strlen(a),lenb=strlen(b),lenc=strlen(c);
+		ll lena=strlen(a),lenb=strlen(b),lenc=strlen(c);
 		for(int i=0;i<lena;++i)num[a[i]-'A']++;
 		for(int i=0;i<lenb;++i)num[b[i]-'A']++;
 		for(int i=0;i<lenc;++i)num[c[i]-'A']--;
