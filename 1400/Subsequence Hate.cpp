@@ -13,7 +13,7 @@ int main()
 		cin>>s;
 		int ones=0;
 		int zeroes=0;
-		for(int i=0;i<s.length();i++)
+		for(ll i=0;i<s.length();i++)
 		{
 			if(s[i]=='0')
 				zeroes++;
