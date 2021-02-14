@@ -11,7 +11,7 @@ int main()
 	{
 		string s;
 		cin>>s;
-		int ones=0;
+		ll ones=0;
 		int zeroes=0;
 		for(ll i=0;i<s.length();i++)
 		{
