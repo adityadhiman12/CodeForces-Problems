@@ -10,7 +10,7 @@ int main()
 	while(t--)
 	{
 		ll n;
-		int count0=0;
+		ll count0=0;
 		int count1=0;
 		cin>>n;
 		vector<ll>a(n);
