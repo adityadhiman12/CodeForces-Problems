@@ -7,7 +7,7 @@ int main()
 {
 	ll n;
 	cin>>n;
-	vector<int>a(n+1);
+	vector<ll>a(n+1);
 	vector<int>b(n+1);
 	vector<int>p(n+1);
 	map<int,int>m;
