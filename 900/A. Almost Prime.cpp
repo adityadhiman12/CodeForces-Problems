@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	bool arr[n];
-	int a[n]={0};
+	ll a[n]={0};
 	for(int i=2;i<n;i++)
 		if(!arr[i])
 			for(int j=2*i;j<n;j+=i)
