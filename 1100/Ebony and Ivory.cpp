@@ -15,7 +15,7 @@ int main()
 	ll a,b,c;
 	cin>>a>>b>>c;
 	int flag=0;
-	for (int i = 0; a * i <= c; ++ i){
+	for (ll i = 0; a * i <= c; ++ i){
         if ((c - a * i) % b == 0)
         {
             printf("Yes\n");
