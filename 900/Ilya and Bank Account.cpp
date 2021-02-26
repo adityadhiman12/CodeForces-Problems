@@ -21,7 +21,7 @@ int main()
 		ll a=n;
 		ll b=n;
 		a=n/10;
-		int d=b%10;
+		ll d=b%10;
 		b/=10;
 		b/=10;
 		b=(b*10)+d;
