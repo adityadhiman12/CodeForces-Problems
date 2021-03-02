@@ -14,7 +14,7 @@ int main()
 				arr[j]=1;
 				a[j]++;
 			}
-	int m;
+	ll m;
 	cin>>m;
 	int res=0;
 	for(int i=1;i<=m;i++)
