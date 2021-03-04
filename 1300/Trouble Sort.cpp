@@ -25,7 +25,7 @@ int main()
 			else
 				count1++;
 		}		
-		int flag=0;
+		ll flag=0;
 		for(ll i=1;i<n;i++)
 		{
 			if(a[i]<a[i-1])			
