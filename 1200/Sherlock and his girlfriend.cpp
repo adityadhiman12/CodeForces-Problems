@@ -3,7 +3,7 @@
 #define endl "\n"
 using namespace std;
 
-int sieve[100005];
+ll sieve[100005];
 
 int main()
 {
