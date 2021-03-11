@@ -29,7 +29,7 @@ int main()
 		ll ans=0;
 		b/=a;
 		while(b>=8)
-			b/=8,ans++;
+			b/=8;ans++;
 		if(b>1)
 			ans++;
 		cout<<ans<<<endl;	
