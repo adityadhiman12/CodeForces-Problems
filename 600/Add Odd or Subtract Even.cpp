@@ -13,7 +13,7 @@ int main()
         cin>>a>>b;
         if(b == a)
             cout<<0<<endl;
-        else if((a>b && (a-b)%2==0) || ((a<b)&&(b-a)%2!=0))
+        else if((a>b && (a-b) % 2 == 0) || ((a<b)&&(b-a)%2!=0))
             cout<<1<<endl;
         else
             cout<<2<<endl;
