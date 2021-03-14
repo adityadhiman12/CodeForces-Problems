@@ -4,7 +4,7 @@
 using namespace std;
 
 char a[150],b[150],c[150];
-int num[30];
+ll num[30];
 int main(){
 	while(cin>>a>>b>>c){
 		memset(num,0,sizeof(num));
