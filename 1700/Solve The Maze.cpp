@@ -26,7 +26,7 @@ int main(){
 	   }
 	   flag=0;
 	    dfs(n,m);
-	    for(int i=1;i<=n;i++) for(int j=1;j<=m;j++) if(a[i][j]=='G'&&!v[i][j])flag=1;
+	    for(ll i=1;i<=n;i++) for(int j=1;j<=m;j++) if(a[i][j]=='G'&&!v[i][j])flag=1;
 	    cout<<(!flag?"Yes\n":"No\n"); 
 	}
  }
