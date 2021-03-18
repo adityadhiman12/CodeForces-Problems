@@ -7,7 +7,7 @@ int main()
 	ll t;
 	cin >> t;
 	while (t--) {
-		int n;
+		ll n;
 		cin >> n;
 		int sumElements=0;
 		bool odd = false;
