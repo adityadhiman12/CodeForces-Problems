@@ -15,7 +15,7 @@ int main()
 		for(int i=0;i<n;i++)
 			cin>>a[i];
 		vector<ll> occ(1024, 0);
-		for(int i = 0; i < n; i++) 
+		for(ll i = 0; i < n; i++) 
 			for(int j = 0; j < n; j++) 
 				occ[a[i]^a[j]]++;
 		int ans = 1;
