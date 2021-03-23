@@ -14,7 +14,7 @@ int main()
     m.insert({'D',12});
     m.insert({'I',20});
     ll faces=0;
-    for(int i=0;i<n;i++)
+    for(ll i=0;i<n;i++)
     {
         string s;
         cin>>s;
