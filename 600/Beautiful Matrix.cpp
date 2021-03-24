@@ -7,9 +7,9 @@ int main()
 {
  ll mat[5][5];
   int row,col;
-  for(int i=0;i<5;i++)
+  for(ll i=0;i<5;i++)
   {
-      for(int j=0;j<5;j++)
+      for(ll j=0;j<5;j++)
       {
           cin>>mat[i][j];
           if(mat[i][j]==1){
