@@ -17,7 +17,7 @@ int main()
 	ll m;
 	cin>>m;
 	int res=0;
-	for(int i=1;i<=m;i++)
+	for(ll i=1;i<=m;i++)
 	{
 		if(a[i]==2)
 			res++;	
