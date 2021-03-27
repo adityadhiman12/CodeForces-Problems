@@ -9,7 +9,7 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		int n,m;
+		ll n,m;
 		cin>>n>>m;
 		int mat[n][m];
 		for(int i=0;i<n;i++)
