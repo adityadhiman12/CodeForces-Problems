@@ -22,8 +22,8 @@ int main()
 			else
 				even++;
 		}
-		int flag=0;
-		for(int i=1;i<=odd && i<=x;i+=2)
+		ll flag=0;
+		for(ll i=1;i<=odd && i<=x;i+=2)
 		{
 			int need=x-i;
 			if(need<=even)
