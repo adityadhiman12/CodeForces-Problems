@@ -16,7 +16,7 @@ int main()
 		cin>>a>>b;
 		ll diff=(a-b);
 		ll flag=0;
-		if(diff==1)
+		if(diff == 1)
 			cout<<"NO"<<endl;
 		else
 			cout<<"YES"<<endl;			
