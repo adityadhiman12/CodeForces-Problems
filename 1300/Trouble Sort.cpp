@@ -20,7 +20,7 @@ int main()
 		for(ll i=0;i<n;i++)
 		{
 			cin>>b[i];
-			if(b[i]==0)
+			if( b[i]==0 )
 				count0++;
 			else
 				count1++;
