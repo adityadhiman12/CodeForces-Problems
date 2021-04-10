@@ -6,7 +6,7 @@ using namespace std;
  
 int main()
 {
-    int n;
+    ll n;
     cin >> n;   
     vector<int>digs;
     while (n % 10 != 0)
