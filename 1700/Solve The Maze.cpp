@@ -5,6 +5,7 @@ using namespace std;
 
 ll v[101][101],b[101][101],n,m,t1,flag;
 char a[101][101];
+
 void dfs(int x,int y)
 {
     if(b[x][y]||v[x][y])return;
