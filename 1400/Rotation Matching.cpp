@@ -16,10 +16,10 @@ int main()
 		cin>>a[i];
 		p[a[i]]=i;
 	}
-	for(int i=1;i<=n;i++)
+	for(ll i=1;i<=n;i++)
 		cin>>b[i];
 	int ans=0;
-	for(int i=1;i<=n;++i)
+	for(ll i=1;i<=n;++i)
 	{
 		int x=p[b[i]]-i;
 		if(x<0)
