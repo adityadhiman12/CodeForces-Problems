@@ -18,7 +18,7 @@ int main()
 		for(ll i = 0; i < n; i++) 
 			for(int j = 0; j < n; j++) 
 				occ[a[i]^a[j]]++;
-		int ans = 1;
+		ll ans = 1;
 		while(ans < 1024 && occ[ans] < n) ++ans;
 		cout << ((ans == 1024) ? -1 : ans) << endl;
 	}
