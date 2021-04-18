@@ -7,7 +7,7 @@ int main()
 {
     ll a,b;
     cin>>a>>b;
-    int year=0;
+    ll year=0;
     while(a<=b)
     {
         year++;
