@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 {
-	int m,n;
+	ll m,n;
 	cin>>m>>n;
-	int area=m*n;
-	int domino=2;
+	ll area=m*n;
+	ll domino=2;
 	cout<<area/domino<<endl;
 }
