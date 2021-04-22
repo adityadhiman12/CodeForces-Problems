@@ -7,9 +7,9 @@ ll sieve[100005];
 
 int main()
 {
-	ll i, n, j;
+	ll n, j;
 	cin>>n;
-	for(i=2; i<=n+1; i++)
+	for(ll i=2; i<=n+1; i++)
 	{
 		if(!sieve[i])
 			for(j=2*i; j<=n+1; j+=i)
@@ -24,9 +24,9 @@ int main()
 	for(i=2; i<=n+1; i++)
 	{
 		if(!sieve[i])
-			cout<<"1 ";
+			cout<<"1";
 		else
-			cout<<"2 ";
+			cout<<"2";
 	}
 
 	return 0;
