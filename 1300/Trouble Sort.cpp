@@ -39,7 +39,7 @@ int main()
 			cout<<"Yes"<<endl;
 			continue;
 		}
-		if(count1==0 || count0==0)
+		if(count == 0 || count == 0)
 		{
 			cout<<"No"<<endl;
 			continue;
