@@ -11,7 +11,7 @@ int main()
 	ll a=8;
 	while(n!=0)
 	{
-		if( n%2==1 )
+		if(n%2 == 1)
 		{
 			res=((res)*(a))%10;
 			n--;
