@@ -14,7 +14,7 @@ int main()
 {
 	ll a,b,c;
 	cin>>a>>b>>c;
-	int flag=0;
+	ll flag=0;
 	for (ll i = 0; a * i <= c; ++ i){
         if ((c - a * i) % b == 0)
         {
@@ -22,6 +22,5 @@ int main()
             return 0;
         }
 	}
-	
-		cout<<"No"<<endl	
+	cout<<"No"<<endl	
 }
