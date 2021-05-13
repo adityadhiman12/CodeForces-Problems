@@ -18,7 +18,7 @@ int main()
 	}
 	for(ll i=1;i<=n;i++)
 		cin>>b[i];
-	int ans=0;
+	ll ans=0;
 	for(ll i=1 ; i<=n ; ++i)
 	{
 		int x=p[b[i]]-i;
