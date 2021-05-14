@@ -8,7 +8,7 @@ vector<int>v;
 
 int prime()
 {
-	int i,j;
+	ll i,j;
 	memset(a,false,sizeof(a));
 
 	for(i=2;i<=sqrt(max);i++)
