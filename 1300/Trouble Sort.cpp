@@ -28,7 +28,7 @@ int main()
 		ll flag=0;
 		for(ll i=1 ;i<n; i++)
 		{
-			if(a[i]<a[i-1])			
+			if( a[i]< a[i-1] )			
 			{
 				flag=1;
 				break;
