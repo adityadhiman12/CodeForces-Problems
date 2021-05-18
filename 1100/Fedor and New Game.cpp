@@ -11,7 +11,7 @@ int main()
 	for(ll i=0 ;i<=m; i++)
 		cin>>a[i];
 	int ans=0;
-	for(int i=0;i<m;i++)
+	for(ll i=0;i<m;i++)
 	{
 		if(__builtin_popcount(a[i]^a[m])<=k)
 			ans++;
