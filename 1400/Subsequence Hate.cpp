@@ -20,10 +20,10 @@ int main()
 			else
 				ones++;
 		}
-		int ans=min(zeroes,ones);
-		int done0s=0;
-		int done1s=0;
-		for(int i=0;i<s.length();i++)
+		ll ans=min(zeroes,ones);
+		ll done0s=0;
+		ll done1s=0;
+		for(ll i=0 ; i<s.length() ; i++)
 		{
 			if(s[i]=='0')
 			{
