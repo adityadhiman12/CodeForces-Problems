@@ -8,7 +8,7 @@ int main()
     ll a,b;
     cin>>a>>b;
     ll year=0;
-    while(a<=b)
+    while( a<=b )
     {
         year++;
         a*=3;
