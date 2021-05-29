@@ -12,7 +12,7 @@ int main()
     for(ll i=0;i<n;++i)
     {
         cin>>a[i];
-        if( a[i] == 1 )
+        if( a[i]==1 )
         {
             flag=1;
             cout<<"Hard"<<endl;
