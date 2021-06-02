@@ -19,7 +19,7 @@ int main()
 	for(ll i=1;i<=n;i++)
 		cin>>b[i];
 	ll ans=0;
-	for(ll i=1 ; i<=n ; ++i)
+	for(ll i=1;i<=n;++i)
 	{
 		int x=p[b[i]]-i;
 		if(x<0)
