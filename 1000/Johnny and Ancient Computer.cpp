@@ -21,7 +21,7 @@ int main()
 		if(a>b)
 			swap(a,b);
 		ll r=getR(a);
-		if(getR(b)!=r)
+		if(getR(b) != r)
 		{
 			cout<<-1<<endl;
 			continue;
