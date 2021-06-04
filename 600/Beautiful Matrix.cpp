@@ -20,7 +20,7 @@ int main()
   }
   int rowM=abs(row-2);
   int colM=abs(col-2);
-  cout<<rowM+colM<<endl;
+  cout<<(rowM+colM)<<endl;
   return 0;
   
 }
