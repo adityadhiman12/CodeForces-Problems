@@ -6,7 +6,8 @@ using namespace std;
 char a[150],b[150],c[150];
 ll num[30];
 int main(){
-	while(cin>>a>>b>>c){
+	while(cin>>a>>b>>c)
+	{
 		memset(num,0,sizeof(num));
 		ll lena=strlen(a),lenb=strlen(b),lenc=strlen(c);
 		for(int i=0;i<lena;++i)num[a[i]-'A']++;
