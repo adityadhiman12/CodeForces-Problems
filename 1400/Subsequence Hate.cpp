@@ -30,7 +30,7 @@ int main()
 				done0s++;
 				zeroes--;
 			}
-			if(s[i]=='1')
+			if( s[i] == '1' )
 			{
 				done1s++;
 				ones--;
