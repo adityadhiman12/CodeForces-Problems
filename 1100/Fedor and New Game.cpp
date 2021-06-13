@@ -8,7 +8,7 @@ int main()
 	ll n,m,k;
 	cin>>n>>m>>k;
 	vector<int>a(10005);
-	for(ll i=0 ; i<=m ; i++)
+	for( ll i=0 ; i<=m ; i++ )
 		cin>>a[i];
 	int ans=0;
 	for(ll i=0;i<m;i++)
