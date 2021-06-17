@@ -8,6 +8,6 @@ using namespace std;
 		ll a,b,c,d;	
 		cin >> a >> b >> c >> d;
 		ll kp = min(a, min(c, d));
-		cout << kp * 256 + min(a - kp, b) * 32;
+		cout << (kp * 256 + min(a - kp, b) * 32);
 		return 0;
     	}
