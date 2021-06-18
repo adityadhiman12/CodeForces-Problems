@@ -11,10 +11,14 @@ void dfs(int x,int y)
     if(b[x][y] || v[x][y] )
 	    return;
     v[x][y]=1;
-    if(x>1)dfs(x-1,y);
-    if(x<n)dfs(x+1,y);
-    if(y>1)dfs(x,y-1);
-    if(y<m)dfs(x,y+1);
+    if(x>1)
+	    dfs(x-1,y);
+    if(x<n)
+	    dfs(x+1,y);
+    if(y>1)
+	    dfs(x,y-1);
+    if(y<m)
+	    dfs(x,y+1);
 }
 int main(){
 	for( cin>>t1; t1--; )
