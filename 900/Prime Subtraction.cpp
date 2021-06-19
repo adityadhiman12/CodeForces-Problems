@@ -17,8 +17,9 @@ int main()
 		ll diff = (a-b);
 		ll flag=0;
 		if(diff == 1)
-			cout<<"NO"<<endl;
+			cout<<"NO";
 		else
-			cout<<"YES"<<endl;			
+			cout<<"YES";	
+	    	cout<<endl;
 	}
 }
