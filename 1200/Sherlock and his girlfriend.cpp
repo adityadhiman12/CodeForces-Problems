@@ -9,7 +9,7 @@ int main()
 {
 	ll n, j;
 	cin>>n;
-	for(ll i=2; i<=n+1; i++)
+	for(ll i=2; i <= n+1; i++)
 	{
 		if(!sieve[i])
 			for(j=2*i; j<=n+1; j+=i)
