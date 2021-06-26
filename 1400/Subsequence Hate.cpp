@@ -15,7 +15,7 @@ int main()
 		ll zeroes=0;
 		for(ll i=0 ;i<s.length(); i++)
 		{
-			if(s[i]=='0')
+			if(s[i] == '0')
 				zeroes++;
 			else
 				ones++;
