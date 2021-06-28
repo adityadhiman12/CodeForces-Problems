@@ -19,8 +19,10 @@ int main()
             a[y-1]++;
         }
     }
-     for (auto &x : a) {
-        if (x <= 0) {
+     for (auto &x : a) 
+     {
+        if (x <= 0) 
+        {
             cout << "NO" << endl;
             return 0;
         }
