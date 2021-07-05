@@ -25,9 +25,11 @@ int main(){
         {
 		cin>>n>>m;
 		for(ll i=1;i<=n;i++)scanf("%s",a[i]+1);
-		for(ll i=0;i<=n+1;i++) for(ll j=0;j<=m+1;j++) 
+		for(ll i=0;i<=n+1;i++) 
+			for(ll j=0;j<=m+1;j++) 
 			b[i][j]=v[i][j]=0;
-		for(ll i=1;i<=n;i++) for(ll j=1;j<=m;j++){
+		for(ll i=1;i<=n;i++) 
+			for(ll j=1;j<=m;j++){
 		   if(a[i][j]=='#') 
 			   b[i][j]=1;
 		   if(a[i][j]=='B') 
