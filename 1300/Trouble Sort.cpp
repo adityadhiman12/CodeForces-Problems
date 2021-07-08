@@ -13,7 +13,8 @@ int main()
 		ll count0=0;
 		int count1=0;
 		cin>>n;
-		vector<ll>a(n),b(n);
+		vector<ll>a(n);
+		vector<ll>b(n);
 		for(ll i=0;i<n;i++)
 			cin>>a[i];
 		for(ll i=0;i<n;i++)
