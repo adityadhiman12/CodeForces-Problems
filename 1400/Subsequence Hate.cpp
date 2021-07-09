@@ -25,7 +25,7 @@ int main()
 		ll done1s=0;
 		for(ll i=0 ; i<s.length() ; i++)
 		{
-			if(s[i]=='0')
+			if(s[i] == '0')
 			{
 				done0s++;
 				zeroes--;
