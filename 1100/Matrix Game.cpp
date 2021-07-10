@@ -48,6 +48,6 @@ int main()
 				}
 			}
 		 }
-		 cout<<winner<<endl;
+		 cout<<winner<<"\n";
 	}
 }
