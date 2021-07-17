@@ -20,7 +20,8 @@ void dfs(int x,int y)
     if(y<m)
 	    dfs(x,y+1);
 }
-int main(){
+int main()
+{
 	for( cin>>t1; t1--; )
         {
 		cin>>n>>m;
