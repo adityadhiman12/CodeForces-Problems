@@ -18,7 +18,7 @@ int main()
     {
         string s;
         cin>>s;
-        if(m.find(s[0])!=m.end()){
+        if( m.find(s[0])!=m.end() ){
             faces+=m[s[0]];
         }
     }
