@@ -11,7 +11,7 @@ int main()
 	vector<ll>b(n+1);
 	vector<int>p(n+1);
 	map<int,int>m;
-	for(ll i=1;i<=n;i++)
+	for(ll i=1 ; i<=n ; i++)
 	{
 		cin>>a[i];
 		p[a[i]]=i;
