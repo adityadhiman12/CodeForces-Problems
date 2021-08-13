@@ -7,7 +7,7 @@ ll gcd(ll a,ll b)
 {
 	if( b==0 )
 		return a;
-	return gcd(b,a%b);	
+	return gcd(b, a%b);	
 }
 
 int main()
