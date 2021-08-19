@@ -23,7 +23,7 @@ int main()
 		ll r=getR(a);
 		if(getR(b) != r)
 		{
-			cout<<-1<<endl;
+			cout<<-1<<"\n";
 			continue;
 		}
 		ll ans=0;
