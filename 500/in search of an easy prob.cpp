@@ -19,6 +19,6 @@ int main()
 		break;
         }
     }
-    if(flag==0)
+    if(flag == 0)
             cout<<"Easy"<<endl;
 }
