@@ -14,7 +14,7 @@ int main()
 		if(str[i]!='{' && str[i]!='}' && str[i]!=' ' && str[i]!=',')
 			s.insert(str[i]);
 	}
-	cout << s.size();
+	cout << s.size() << endl;
 	
 	
 }
