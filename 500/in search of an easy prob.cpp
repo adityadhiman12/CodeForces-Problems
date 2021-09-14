@@ -20,5 +20,5 @@ int main()
         }
     }
     if(flag == 0)
-            cout<<"Easy"<<endl;
+            cout<<"Easy"<<"\n";
 }
