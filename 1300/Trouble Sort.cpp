@@ -45,6 +45,6 @@ int main()
 			continue;
 		}	
 		else
-			cout<<"Yes"<<"\n";
+			cout<<"Yes"<<<<endl;
 	}
 }
