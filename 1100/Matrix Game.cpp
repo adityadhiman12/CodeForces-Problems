@@ -34,7 +34,7 @@ int main()
 			{
 				if(mat[i][j]==0)
 				{
-					if(r.find(i)!=r.end() || c.find(j)!=c.end())
+					if( r.find(i)!=r.end() || c.find(j)!=c.end() )
 						continue;
 					else
 					{
