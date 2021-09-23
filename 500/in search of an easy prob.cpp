@@ -15,7 +15,7 @@ int main()
         if( a[i] == 1 )
         {
             flag=1;
-            cout<<"Hard"<<endl;
+            cout<<"Hard"<<"\n";
 		break;
         }
     }
