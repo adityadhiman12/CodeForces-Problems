@@ -23,7 +23,7 @@ int main()
 		else
 			even++;
 	}		
-	if(odd==n || even==n)
+	if( odd==n || even==n )
 		cout<<"YES"<<endl;
 	else 
 		cout<<"NO"<<endl;
