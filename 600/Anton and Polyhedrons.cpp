@@ -7,7 +7,7 @@ int main()
 {
     ll n;
     cin>>n;
-    map<char,ll>m;
+    map<char, ll>m;
     m.insert({'T',4});
     m.insert({'C',6});
     m.insert({'O',8});
