@@ -14,5 +14,5 @@ int main()
         else
             n/=10;
     }
-    cout<<n<<endl;  
+    cout<<n<<"\n";  
 }
