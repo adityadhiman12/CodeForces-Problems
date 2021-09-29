@@ -13,7 +13,7 @@ int main()
 	int ans=0;
 	for(ll i=0 ; i<m ; i++)
 	{
-		if( __builtin_popcount(a[i]^a[m]) <= k )
+		if( __builtin_popcount( a[i] ^ a[m]) <= k )
 			ans++;
 	}	
 	cout<<ans<<endl;
