@@ -16,7 +16,7 @@ int main()
     }
     reverse(digs.begin(), digs.end());
     int ans = 1;
-    for (int i = 0; i < digs.size(); i++)
+    for (int i = 0 ; i < digs.size() ; i++)
     {
         ans *= 2;
         if (digs[i] == 7)
