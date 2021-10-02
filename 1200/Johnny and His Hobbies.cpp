@@ -21,6 +21,6 @@ int main()
 		ll ans = 1;
 		while(ans < 1024 && occ[ans] < n) 
 			++ans;
-		cout << ((ans == 1024) ? -1 : ans) << endl;
+		cout << ((ans == 1024) ? -1 : ans) << "\n";
 	}
 }
