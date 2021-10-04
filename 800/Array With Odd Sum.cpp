@@ -12,7 +12,8 @@ int main()
 		int sumElements=0;
 		bool odd = false;
 		bool even = false;
-		for (int i = 0; i < n; ++i) {
+		for (int i = 0; i < n; ++i) 
+		{
 			int x;
 			cin >> x;
 			sumElements += x;
