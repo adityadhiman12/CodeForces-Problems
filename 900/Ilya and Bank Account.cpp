@@ -27,6 +27,6 @@ int main()
 		b=(b*10)+d;
 		cout<<max(max(a,b),n)<<endl;
 
-}
+	}
 	
 }
