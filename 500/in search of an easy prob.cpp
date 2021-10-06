@@ -15,10 +15,10 @@ int main()
         if( a[i] == 1 )
         {
             flag=1;
-            cout<<"Hard"<<"\n";
+            cout<<" Hard "<<"\n";
 		break;
         }
     }
     if(flag == 0)
-            cout<<"Easy"<<"\n";
+            cout<<" Easy "<<"\n";
 }
