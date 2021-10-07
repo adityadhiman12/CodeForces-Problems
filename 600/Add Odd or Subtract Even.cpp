@@ -16,7 +16,7 @@ int main()
         else if((a>b && (a-b) % 2 == 0) || ((a<b)&&(b-a)%2!=0))
             cout<<1<<endl;
         else
-            cout<<2<<endl;
+            cout<<2<<"\n";
       
     }
 }
