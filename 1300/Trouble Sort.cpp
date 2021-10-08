@@ -15,7 +15,7 @@ int main()
 		cin>>n;
 		vector<ll>a(n);
 		vector<ll>b(n);
-		for(ll i=0;i<n;i++)
+		for(ll i=0 ; i<n ; i++)
 			cin>>a[i];
 		for(ll i=0;i<n;i++)
 		{
