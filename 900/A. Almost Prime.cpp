@@ -7,7 +7,7 @@ int main()
 {
 	bool arr[n];
 	ll a[n]={0};
-	for(ll i=2;i<n;i++)
+	for(ll i=2 ; i<n ; i++)
 		if(!arr[i])
 			for(int j=2*i;j<n;j+=i)
 			{
