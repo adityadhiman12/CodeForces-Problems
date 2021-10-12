@@ -8,7 +8,7 @@ char a[101][101];
 
 void dfs(int x,int y)
 {
-    if(b[x][y] || v[x][y] )
+    if( b[x][y] || v[x][y] )
 	    return;
     v[x][y]=1;
     if( x > 1 )
