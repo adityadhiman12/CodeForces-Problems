@@ -16,7 +16,7 @@ int main()
 			cin>>a[i];
 		vector<ll> occu(1024, 0);
 		for(ll i = 0; i < n; i++) 
-			for(int j = 0; j < n; j++) 
+			for(int j = 0 ; j < n ; j++) 
 				occ[a[i]^a[j]]++;
 		ll ans = 1;
 		while(ans < 1024 && occ[ans] < n) 
