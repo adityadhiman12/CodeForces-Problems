@@ -21,7 +21,7 @@ int main()
 	else
 		cout<<"1\n";
 
-	for(ll i=2; i<=n+1; i++)
+	for(ll i=2; i <= n+1; i++)
 	{
 		if(!sieve[i])
 			cout<<"1";
