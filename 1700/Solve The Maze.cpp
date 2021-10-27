@@ -22,7 +22,7 @@ void dfs(int x,int y)
 }
 int main()
 {
-	for( cin>>t1; t1--; )
+	for( cin>>t1 ; t1-- ; )
         {
 		cin>>n>>m;
 		for(ll i=1;i<=n;i++)
