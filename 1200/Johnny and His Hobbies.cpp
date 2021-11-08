@@ -19,7 +19,7 @@ int main()
 			for(int j = 0 ; j < n ; j++) 
 				occ[a[i]^a[j]]++;
 		ll ans = 1;
-		while(ans < 1024 && occ[ans] < n) 
+		while( ans < 1024 && occ[ans] < n ) 
 			++ans;
 		cout << ((ans == 1024) ? -1 : ans) << "\n";
 	}
