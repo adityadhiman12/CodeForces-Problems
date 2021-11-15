@@ -12,7 +12,7 @@ ll gcd(ll a,ll b)
 
 int main()
 {
-	ll a,b,c;
+	ll a, b, c;
 	cin>>a>>b>>c;
 	ll flag=0;
 	for (ll i = 0; a * i <= c; ++i)
