@@ -20,7 +20,7 @@ int main()
 			else
 				ones++;
 		}
-		ll ans=min(zeroes,ones);
+		ll ans=min(zeroes, ones);
 		ll done0s=0;
 		ll done1s=0;
 		for( ll i=0 ; i < s.length() ; i++ )
