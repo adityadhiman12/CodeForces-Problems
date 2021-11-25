@@ -44,6 +44,6 @@ int main()
 		    for(ll j=1;j<=m;j++) 
 			    if(a[i][j]=='G' && !v[i][j])
 				    flag=1;
-	    cout<<(!flag?"Yes\n":"No\n"); 
+	    cout<<(!flag ?"Yes\n" : "No\n"); 
 	}
  }
