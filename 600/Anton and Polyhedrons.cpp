@@ -8,11 +8,11 @@ int main()
     ll n;
     cin>>n;
     map<char, ll>m;
-    m.insert({'T',4});
-    m.insert({'C',6});
-    m.insert({'O',8});
-    m.insert({'D',12});
-    m.insert({'I',20});
+    m.insert({'T', 4});
+    m.insert({'C', 6});
+    m.insert({'O', 8});
+    m.insert({'D', 12});
+    m.insert({'I', 20});
     ll faces=0;
     for(ll i=0 ; i<n ; i++ )
     {
