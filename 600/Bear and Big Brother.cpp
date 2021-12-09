@@ -11,8 +11,8 @@ int main()
     while( a <= b )
     {
         year++;
-        a=a*3;
-        b=b*2;
+        a = a*3;
+        b = b*2;
     }
     cout<<year<<endl;
 }
