@@ -7,7 +7,7 @@ int main()
 {
 	ll n;
 	cin>>n;
-	ll res=1;
+	ll res = 1;
 	ll a=8;
 	while( n != 0 )
 	{
