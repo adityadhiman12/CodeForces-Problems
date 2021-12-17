@@ -29,7 +29,7 @@ int main()
 	}
 	for(auto i:m)
 	{
-		ans=max(ans,i.second);
+		ans=max(ans, i.second);
 	}
 	cout<<ans<<endl;
 }
