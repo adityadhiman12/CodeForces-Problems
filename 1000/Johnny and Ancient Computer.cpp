@@ -5,7 +5,7 @@ using namespace std;
 
 ll getR(ll a) 
 {
-	while(a%2==0)
+	while( a % 2 == 0 )
 		a/=2;
 	return a;
 }
