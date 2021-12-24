@@ -36,7 +36,7 @@ int main()
 			   if(a[i][j] == '#') 
 				   b[i][j]=1;
 			   if(a[i][j] == 'B') 
-				   b[i][j]=b[i-1][j]=b[i+1][j]=b[i][j-1]=b[i][j+1]=1;
+				   b[i][j] = b[i-1][j]=b[i+1][j]=b[i][j-1]=b[i][j+1]=1;
 			 }
 	   flag=0;
 	    dfs(n,m);
