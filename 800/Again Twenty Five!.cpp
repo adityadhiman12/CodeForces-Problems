@@ -7,5 +7,5 @@ int main()
 {
 	ll n;
 	cin>>n;
-	cout<<26<<endl;
+	cout<< 26 <<endl;
 }
