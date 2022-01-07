@@ -19,7 +19,7 @@ int main()
 	{
 		if ((c - a * i) % b == 0)
 		{
-		    printf("Yes\n");
+		    printf("Yes \n");
 		    return 0;
 		}
 	}
