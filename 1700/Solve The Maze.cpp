@@ -25,7 +25,7 @@ int main()
 	for( cin>>t1 ; t1-- ; )
         {
 		cin>>n>>m;
-		for(ll i=1 ; i<=n ; i++)
+		for(ll i=1 ; i <= n ; i++)
 			scanf("%s", a[i]+1);
 		for(ll i=0;i<=n+1;i++) 
 			for(ll j=0 ;j<=m+1 ; j++) 
