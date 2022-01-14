@@ -10,9 +10,9 @@ int main()
     for( ll i=0 ; i<k ; i++ )
     {
         if( n % 10 != 0 )
-            n=n-1;
+            n = n-1;
         else
-            n/=10;
+            n /= 10;
     }
     cout<<n<<"\n";  
 }
