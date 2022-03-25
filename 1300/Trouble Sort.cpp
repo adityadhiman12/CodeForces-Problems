@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	ll t;
-	cin>>t;
+	cin >> t;
 	while( t-- )
 	{
 		ll n;
