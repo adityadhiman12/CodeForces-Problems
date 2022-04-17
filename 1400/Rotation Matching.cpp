@@ -15,7 +15,7 @@ int main()
 	for(ll i=1 ; i <= n ; i++)
 	{
 		cin>>a[i];
-		p[a[i]]=i;
+		p[a[i]] = i;
 	}
 	for(ll i=1 ; i <= n ; i++)
 		cin>>b[i];
